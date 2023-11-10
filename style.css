@@ -25,4 +25,20 @@ body {
     padding: 5px;
     margin: 10px 0;
   }
+
+.topMenu
+{
+  max-width: 1200px;
+  background-color: #999999;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  list-style-type: none;
+}
+
+.topMenu li
+{
+  display: inline-block;
+  padding: 10px;
+}
   
