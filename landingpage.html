@@ -21,7 +21,7 @@
   
   <div class="select">
     <label for="airlineSelect">Select Airline:</label>
-    <select id="airlineSelect" class="dropdownMenu">
+    <select id="airlineSelect" class="dropdownMenu" onchange="flightselected(this.value)">
       <option value="">Please Select An Airline</option>
       <option value="JetBlue">JetBlue</option>
       <option value="United">United</option>
