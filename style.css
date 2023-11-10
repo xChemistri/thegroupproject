@@ -27,8 +27,7 @@ select {
 }
 
 .topMenu {
-  max-width: 1200px;
-  background-color: #999999;
+  background-color: #cccccc;
   overflow: hidden;
   text-align: center;
   display: block;
@@ -45,5 +44,20 @@ select {
   display: inline-block;
   padding: 10px;
   transition-duration: 300ms;
+}
+
+.select
+{
+  background-color: #cccccc;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dropdownMenu
+{
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
 }
   
