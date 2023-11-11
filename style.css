@@ -66,12 +66,12 @@ select {
   text-align: center;
   list-style-type: none;
   padding-right: 50px;
+
 }
 
 .list li
 {
   background: #cccccc;
-  color: white;
   text-align: center;
   border-radius: 10px;
 }
