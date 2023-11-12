@@ -59,6 +59,7 @@ select {
   color: white;
   text-align: center;
   border-radius: 10px;
+  
 }
 
 .list
@@ -66,7 +67,6 @@ select {
   text-align: center;
   list-style-type: none;
   padding-right: 50px;
-
 }
 
 .list li
@@ -74,5 +74,7 @@ select {
   background: #cccccc;
   text-align: center;
   border-radius: 10px;
+  border-color: white;
+  border-width: 5px;
 }
   
