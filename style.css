@@ -35,6 +35,7 @@ select {
   border-radius: 10px;
 }
 
+
 .topMenu li:hover {
   background: #666666;
   color: white;
@@ -62,19 +63,19 @@ select {
   
 }
 
+.paddingForList
+{
+  padding-bottom: 5px;
+}
 .list
 {
   text-align: center;
   list-style-type: none;
-  padding-right: 50px;
-}
-
-.list li
-{
+  padding-top: 2px;
+  padding-bottom: 2px;
   background: #cccccc;
   text-align: center;
   border-radius: 10px;
   border-color: white;
   border-width: 5px;
 }
-  
