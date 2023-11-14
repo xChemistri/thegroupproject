@@ -30,7 +30,7 @@ function flightselected (value)
         case "Emirates":
             document.getElementById("carryOnSize").innerHTML = "22in x 15in x 8in";
             document.getElementById("personalItemSize").innerHTML = "18in x 14in x 7in";
-            document.getElementById("maxWeight").innerHTML = "15lb, 22lb (Premium)";
+            document.getElementById("maxWeight").innerHTML = "15lb (Economy), 22lb (Premium)";
             break;
         case "Qatar":
             document.getElementById("carryOnSize").innerHTML = "20in x 15in x 10in";
@@ -50,7 +50,7 @@ function flightselected (value)
         case "AirChina":
             document.getElementById("carryOnSize").innerHTML = "21in x 16in x 8in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat*";
-            document.getElementById("maxWeight").innerHTML = "11lb (Economy), 17lb (First/Business)";
+            document.getElementById("maxWeight").innerHTML = "11lb (Economy), 17lb (First)";
             break;
         case "ANZG":
             document.getElementById("carryOnSize").innerHTML = "22in x 16in x 10in";
@@ -58,39 +58,39 @@ function flightselected (value)
             document.getElementById("maxWeight").innerHTML = "15lb (Economy), 30lb (Business).";
             break;
         case "ANA":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 16in x 10in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat*";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "22lb";
             break;
         case "Asiana":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
-            document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("carryOnSize").innerHTML = "22in x 16in x 8in";
+            document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat*";
+            document.getElementById("maxWeight").innerHTML = "22lb";
             break;
         case "Cathay":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
-            document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("carryOnSize").innerHTML = "22in x 15in x 9in";
+            document.getElementById("personalItemSize").innerHTML = "16in x 12in x 6in";
+            document.getElementById("maxWeight").innerHTML = "15lb (Economy), 22lb (Premium), 30lb (First)";
             break;
         case "Cebu":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
-            document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("carryOnSize").innerHTML = "22in x 14in x 9in";
+            document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat*";
+            document.getElementById("maxWeight").innerHTML = "15lb";
             break;
         case "ChinaAirlines":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 14in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "110lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "15lb (Economy), 22lb (Premium), 33lb (First)";
             break;
         case "CEA":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 14in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "44lb/88lb (Domestic), 50lb (International)";
+            document.getElementById("maxWeight").innerHTML = "22lb";
             break;
         case "CSA":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 14in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "44lb/88lb (Domestic), 50lb (International)";
+            document.getElementById("maxWeight").innerHTML = "15lb (Economy), 22lb (Premium), 33lb (First)";
             break;
         case "Garuda":
             document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
