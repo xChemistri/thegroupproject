@@ -173,41 +173,42 @@ function flightselected (value)
         case "Aeroflot":
             document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "33lb (Domestic), 50lb (International)";
             break;
         case "AirBerlin":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 14in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "50lb (Economy), 70lb (Business)";
+            break;
         case "AirFrance":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "21in x 13in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "66lb (Domestic), 50lb (International)";
             break;
         case "Alitalia":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "21in x 13in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "44lb (Domestic), 70lb (International)";
             break;
         case "AustrianAG":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 9in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "33lb (Domestic), 50lb (International)";
             break;
         case "BritishAirways":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 18in x 10in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "66lb (Domestic), 50lb (International)";
             break;
         case "easyJet":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 18in x 10in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "50lb (Standard), 70lb (Business)";
             break;
         case "IAG":
-            document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
+            document.getElementById("carryOnSize").innerHTML = "22in x 18in x 10in";
             document.getElementById("personalItemSize").innerHTML = "Must Fit Under Seat";
-            document.getElementById("maxWeight").innerHTML = "88lb (Domestic), 70lb (International)";
+            document.getElementById("maxWeight").innerHTML = "66lb (Domestic), 50lb (International)";
             break;
         case "Lufthansa":
             document.getElementById("carryOnSize").innerHTML = "21in x 15in x 7in";
