@@ -3,7 +3,9 @@ body {
   background: linear-gradient(to bottom, #73ceff, #ffffff);
   color: #333;
   line-height: 1.6;
-  padding: 20px;
+  padding: 0px;
+  margin: 0;
+  height: 100vh;
 }
 
 .container {
@@ -11,6 +13,8 @@ body {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -34,6 +38,8 @@ select {
 }
 
 .topMenu {
+  margin: 0;
+  padding: 0;
   background-color: #bce7ff;
   overflow: hidden;
   text-align: center;
@@ -43,6 +49,7 @@ select {
 }
 
 .topMenu li:hover {
+  display: inline-block;
   background: #00fbff;
   color: rgb(51, 11, 170);
 }
@@ -82,7 +89,6 @@ select {
   border-width: 5px;
 }
 
-/* Additional Styles for the How-to Page */
 img {
   max-width: 100%;
   height: auto;
@@ -110,4 +116,8 @@ p {
   background: #333;
   color: #fff;
   border-radius: 0 0 8px 8px;
+}
+.container > *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
