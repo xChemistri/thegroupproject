@@ -1,9 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #73ceff, #ffffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #333;
   line-height: 1.6;
-  padding: 0px;
+  padding: 0;
   margin: 0;
   height: 100vh;
 }
