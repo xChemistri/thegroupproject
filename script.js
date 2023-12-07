@@ -220,35 +220,45 @@ function flightselected (value)
             document.getElementById("personalItemSize").innerHTML = "N/A";
             document.getElementById("maxWeight").innerHTML = "N/A";
     }
+    storeOriginalValues();
     updateMeasurements(currentUnit);
 }
 
 var currentUnit = 'imperial'; // Keep track of the current unit
 
-function convertToMetric() {
-    if (currentUnit === 'imperial') {
-        // Update measurements to metric
-        updateMeasurements('metric');
-        currentUnit = 'metric';
-    } else {
-        // Update measurements back to imperial
-        updateMeasurements('imperial');
-        currentUnit = 'imperial';
-    }
+// Function to store the original imperial values
+function storeOriginalValues() {
+    var elements = ['carryOnSize', 'personalItemSize', 'maxWeight'];
+    elements.forEach(function(elementId) {
+        var element = document.getElementById(elementId);
+        if (element) {
+            element.setAttribute('data-imperial', element.innerText);
+        }
+    });
 }
-
-function updateMeasurements(unit) {
+//Function to toggle the value of the currentUnit variable
+function convertToMetric() {
+    currentUnit = currentUnit === 'imperial' ? 'metric' : 'imperial';
+    updateMeasurements();
+}
+//Function that replaces the text of the elements with the desired measurements
+function updateMeasurements() {
     var elements = ['carryOnSize', 'personalItemSize', 'maxWeight'];
     elements.forEach(function(elementId) {
         var element = document.getElementById(elementId);
         if (!element) return;
 
-        element.innerText = element.innerText.replace(/\b(\d+(?:\.\d+)?)in\b/g, function(match, inches) {
-            var cm = (inches * 2.54).toFixed(1);
-            return unit === 'metric' ? cm + 'cm' : match;
-        }).replace(/\b(\d+(?:\.\d+)?)lb\b/g, function(match, pounds) {
-            var kg = (pounds * 0.45359237).toFixed(1);
-            return unit === 'metric' ? kg + 'kg' : match;
-        });
+        var originalText = element.getAttribute('data-imperial');
+        if (currentUnit === 'metric') {
+            element.innerText = originalText.replace(/\b(\d+(?:\.\d+)?)in\b/g, function(match, inches) {
+                var cm = (inches * 2.54).toFixed(1);
+                return cm + 'cm';
+            }).replace(/\b(\d+(?:\.\d+)?)lb\b/g, function(match, pounds) {
+                var kg = (pounds * 0.45359237).toFixed(1);
+                return kg + 'kg';
+            });
+        } else {
+            element.innerText = originalText;
+        }
     });
 }

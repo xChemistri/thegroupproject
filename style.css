@@ -128,3 +128,15 @@ p {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+button {
+  border-radius: 8px;
+  border: 3px;
+  padding: 5px;
+  background-color: #bce7ff;
+  cursor: pointer;
+}
+button:hover {
+  background: #00fbff;
+  color: rgb(51, 11, 170);
+  border-radius: 8px;
+}
