@@ -48,13 +48,13 @@ select {
   text-align: center;
   display: block;
   list-style-type: none;
-  border-radius: 10px;
 }
 
 .topMenu li:hover {
   display: inline-block;
   background: #00fbff;
   color: rgb(51, 11, 170);
+  border-radius: 10px;
 }
 
 .topMenu li {
