@@ -92,6 +92,10 @@ select {
   border-width: 5px;
 }
 
+.list.highlight{
+  background: #2df006af;
+}
+
 img {
   max-width: 100%;
   height: auto;
